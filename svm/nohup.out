@@ -1,0 +1,739 @@
+[I 19:19:20.917 NotebookApp] The port 8086 is already in use, trying another port.
+[W 2021-05-31 19:19:21.584 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-05-31 19:19:21.584 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-05-31 19:19:21.584 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-05-31 19:19:21.584 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-05-31 19:19:21.590 LabApp] JupyterLab extension loaded from /home/alamhc/miniconda3/lib/python3.7/site-packages/jupyterlab
+[I 2021-05-31 19:19:21.591 LabApp] JupyterLab application directory is /home/alamhc/miniconda3/share/jupyter/lab
+[I 19:19:21.594 NotebookApp] Serving notebooks from local directory: /home/alamhc/workspace/pattern-recognition/svm
+[I 19:19:21.594 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 19:19:21.594 NotebookApp] http://alamhc-MS-7B53:8087/
+[I 19:19:21.594 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:19:21.596 NotebookApp] No web browser found: could not locate runnable browser.
+[I 20:21:19.030 NotebookApp] 302 GET /notebooks/1.train.ipynb (36.226.78.149) 2.370000ms
+[I 20:21:23.220 NotebookApp] 302 POST /login?next=%2Fnotebooks%2F1.train.ipynb (36.226.78.149) 3.170000ms
+[W 20:21:26.077 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210531191920 (36.226.78.149) 8.300000ms referer=http://219.70.246.9:8087/notebooks/1.train.ipynb
+[I 20:21:26.343 NotebookApp] Kernel started: 238a0f77-5059-418b-929f-46a39c34f173, name: python3
+[W 20:21:35.675 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210531191920 (36.226.78.149) 3.440000ms referer=http://219.70.246.9:8087/notebooks/0.dara_prepare.ipynb
+[I 20:21:35.976 NotebookApp] Kernel started: 45115aca-500e-4350-8c4d-9d96620afd75, name: python3
+[I 20:23:26.388 NotebookApp] Saving file at /1.train.ipynb
+[I 20:35:26.482 NotebookApp] Saving file at /1.train.ipynb
+[I 20:47:29.780 NotebookApp] Saving file at /1.train.ipynb
+[I 20:49:29.333 NotebookApp] Saving file at /1.train.ipynb
+[I 21:00:29.110 NotebookApp] Saving file at /1.train.ipynb
+[I 21:02:20.382 NotebookApp] Saving file at /1.train.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[I 21:04:28.923 NotebookApp] Saving file at /1.train.ipynb
+[I 21:06:28.822 NotebookApp] Saving file at /1.train.ipynb
+[I 21:10:28.938 NotebookApp] Saving file at /1.train.ipynb
+[I 21:14:29.056 NotebookApp] Saving file at /1.train.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[I 21:16:28.936 NotebookApp] Saving file at /1.train.ipynb
+[I 21:18:28.871 NotebookApp] Saving file at /1.train.ipynb
+[I 21:20:29.055 NotebookApp] Saving file at /1.train.ipynb
+[I 21:22:28.891 NotebookApp] Saving file at /1.train.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    project=Project(Path.cwd()), **kwds)
+TypeError: __init__() got an unexpected keyword argument 'column'
+[I 21:32:10.170 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+Websocket closed
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    omitted, Jedi will be clever and try to define the range itself.
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    omitted, Jedi will be clever and try to define the range itself.
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    omitted, Jedi will be clever and try to define the range itself.
+TypeError: __init__() got an unexpected keyword argument 'column'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 265, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 580, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 356, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 381, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 484, in rectify_completions
+    completions = list(completions)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1818, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1862, in _completions
+    full_text=full_text, cursor_line=cursor_line, cursor_pos=cursor_column)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 2030, in _complete
+    cursor_pos, cursor_line, full_text)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/IPython/core/completer.py", line 1374, in _jedi_matches
+    text[:offset], namespaces, column=cursor_column, line=cursor_line + 1)
+  File "/home/alamhc/miniconda3/lib/python3.7/site-packages/jedi/api/__init__.py", line 726, in __init__
+    omitted, Jedi will be clever and try to define the range itself.
+TypeError: __init__() got an unexpected keyword argument 'column'
+[I 21:32:28.862 NotebookApp] Saving file at /1.train.ipynb
+[I 21:32:29.349 NotebookApp] Starting buffering for 238a0f77-5059-418b-929f-46a39c34f173:8b684c7cd8a549af88bdc7c5891f0ce0
+[I 21:32:29.656 NotebookApp] Kernel restarted: 238a0f77-5059-418b-929f-46a39c34f173
+[I 21:32:29.794 NotebookApp] Restoring connection for 238a0f77-5059-418b-929f-46a39c34f173:8b684c7cd8a549af88bdc7c5891f0ce0
+[I 21:32:30.000 NotebookApp] Replaying 3 buffered messages
+[I 21:34:30.006 NotebookApp] Saving file at /1.train.ipynb
+[I 22:11:33.932 NotebookApp] Saving file at /1.train.ipynb
+[I 22:13:34.100 NotebookApp] Saving file at /1.train.ipynb
+[I 22:19:53.652 NotebookApp] Saving file at /1.train.ipynb
+[I 22:21:53.840 NotebookApp] Saving file at /1.train.ipynb
+[I 22:23:53.766 NotebookApp] Saving file at /1.train.ipynb
+[I 22:25:53.907 NotebookApp] Saving file at /1.train.ipynb
+[I 22:27:53.699 NotebookApp] Saving file at /1.train.ipynb
+[I 22:31:55.387 NotebookApp] Saving file at /1.train.ipynb
+[I 22:33:55.653 NotebookApp] Saving file at /1.train.ipynb
+[I 22:41:56.093 NotebookApp] Saving file at /1.train.ipynb
+[I 22:44:01.409 NotebookApp] Saving file at /1.train.ipynb
+[I 22:47:58.068 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
+[W 23:02:29.794 NotebookApp] WebSocket ping timeout after 119720 ms.
+[W 23:02:30.415 NotebookApp] WebSocket ping timeout after 119796 ms.
+[I 23:02:34.798 NotebookApp] Starting buffering for 238a0f77-5059-418b-929f-46a39c34f173:8b684c7cd8a549af88bdc7c5891f0ce0
+Websocket closed
+[W 23:02:36.336 NotebookApp] WebSocket ping timeout after 119805 ms.
+[I 23:02:41.340 NotebookApp] Starting buffering for 45115aca-500e-4350-8c4d-9d96620afd75:e159823d4a9d49ffbcef7650f242bfb5
+TermSocket.open: 1
+TermSocket.open: Opened 1

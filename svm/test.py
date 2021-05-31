@@ -59,9 +59,8 @@ TRAIN_DIR = "train-mails"
 TEST_DIR = "test-mails"
 
 dictionary = make_Dictionary(TRAIN_DIR)
-print("dict",dictionary,"dict=")
+#print("dict",dictionary,"dict=")
 
 features_matrix, labels = extract_features(TRAIN_DIR)
 
-print("=features_matrix=",features_matrix,"features_matrix=")
-print("=labels=",labels,"labels=")
+print("=features_matrix=",features_matrix,"features_matrix=",type(features_matrix))
