@@ -738,3 +738,27 @@ Websocket closed
 TermSocket.open: 1
 TermSocket.open: Opened 1
 [I 03:27:23.236 NotebookApp] 302 GET / (36.226.78.149) 1.110000ms
+[W 03:58:55.915 NotebookApp] WebSocket ping timeout after 119911 ms.
+Websocket closed
+[I 05:18:02.323 NotebookApp] 302 GET / (159.89.29.9) 0.330000ms
+[W 10:33:23.239 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210531191920 (36.226.78.149) 0.730000ms referer=http://219.70.246.9:8087/notebooks/1.train.ipynb
+[I 10:35:24.516 NotebookApp] Saving file at /1.train.ipynb
+[I 10:37:25.186 NotebookApp] Saving file at /1.train.ipynb
+[I 10:39:24.621 NotebookApp] Saving file at /1.train.ipynb
+[I 10:40:49.032 NotebookApp] Malformed HTTP message from 176.116.230.201: Malformed HTTP request line
+[I 10:40:51.612 NotebookApp] 302 GET / (176.116.230.201) 1.230000ms
+[I 10:41:14.110 NotebookApp] 302 GET / (176.116.230.201) 1.240000ms
+[W 10:41:14.113 NotebookApp] 403 POST /sdk (176.116.230.201): '_xsrf' argument missing from POST
+[W 10:41:14.114 NotebookApp] 403 POST /sdk (176.116.230.201) 2.600000ms referer=None
+[W 10:41:14.115 NotebookApp] 404 GET /nmaplowercheck1622515271 (176.116.230.201) 0.850000ms referer=None
+[W 10:41:14.116 NotebookApp] 404 GET /.git/HEAD (176.116.230.201) 1.300000ms referer=None
+[I 10:41:26.058 NotebookApp] 302 GET /tree? (176.116.230.201) 1.750000ms
+[W 10:41:26.062 NotebookApp] 404 GET /HNAP1 (176.116.230.201) 2.740000ms referer=None
+[W 10:41:26.106 NotebookApp] 404 GET /owa/auth/x.js (176.116.230.201) 1.960000ms referer=None
+[W 10:41:26.108 NotebookApp] 404 GET /nmaplowercheck1622515273 (176.116.230.201) 2.010000ms referer=None
+[I 10:41:27.716 NotebookApp] 302 GET / (176.116.230.201) 1.160000ms
+[I 10:41:29.108 NotebookApp] 302 GET / (176.116.230.201) 1.010000ms
+[I 10:43:24.661 NotebookApp] Saving file at /1.train.ipynb
+[I 10:47:24.489 NotebookApp] Saving file at /1.train.ipynb
+TermSocket.open: 1
+TermSocket.open: Opened 1
