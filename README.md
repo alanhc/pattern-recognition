@@ -8,4 +8,4 @@ Pattern Recognition
 | SVM  | compare different models | [code-data](./svm/HW3-PR-06160485/0.dara_prepare.ipynb), [code-train](./svm/HW3-PR-06160485/1.train.ipynb),  [readme](./svm/HW3-PR-06160485/SVM-report.pdf)    |
 | Bagging & Boosting  | compare different models | [code](./boosting/run.ipynb), [readme](./boosting/集成模型效能-3.pdf), [result(excel)](./boosting/方法效能比較.xlsx)    |
 | Skin Detenction    | detect skin | [code](./w6/run.ipynb), [readme](./w6/膚色偵測.pdf)    |
-| Final conclution report   | final report | [code](./final/run.ipynb), [readme](./final/期末報告-3.pdf)    |
+| Final  report   | final report | [code](./final/run.ipynb), [readme](./final/期末報告-3.pdf)    |
